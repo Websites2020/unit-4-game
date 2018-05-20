@@ -1,8 +1,8 @@
-var spade = Math.floor(Math.random() * 10);
-var diamond = Math.floor(Math.random() * 10);
-var clover = Math.floor(Math.random() * 10);
-var heart = Math.floor(Math.random() * 10);
-var computer = Math.floor(Math.random() * (100-30) + 30);
+var spade = Math.floor(Math.random() * (12-1) + 1);
+var diamond = Math.floor(Math.random() * (12-1) + 1);
+var clover = Math.floor(Math.random() * (12-1) + 1);
+var heart = Math.floor(Math.random() * (12-1) + 1);
+var computer = Math.floor(Math.random() * (120-19) + 19);
 var player = 0;
 var z = 1;
 var y = 1;
@@ -21,36 +21,38 @@ $("#button1").on("click", function() {
 
     if (computer === player) {
         console.log(true);
-        // document.getElementById("playerNo").innerHTML = 0;
         computer = Math.floor(Math.random() * (100-30) + 30);
         player = 0;
-        spade = Math.floor(Math.random() * 10);
-        diamond = Math.floor(Math.random() * 10);
-        clover = Math.floor(Math.random() * 10);
-        heart = Math.floor(Math.random() * 10);
+        spade = Math.floor(Math.random() * (12-1) + 1);
+        diamond = Math.floor(Math.random() * (12-1) + 1);
+        clover = Math.floor(Math.random() * (12-1) + 1);
+        heart = Math.floor(Math.random() * (12-1) + 1);
         $('#compNo').text(computer);
         $('#playerNo').text(player);
 
         var winTally = document.getElementById("wins");
         wins = z++;
         winTally.innerHTML = "Wins: " + wins;
+
+        alert("You Win!");
     
     } else {
         console.log(false);
     } if (computer < player + 1) {
-        // document.getElementById("playerNo").innerHTML = 0;
         computer = Math.floor(Math.random() * (100-30) + 30);
         player = 0;
-        spade = Math.floor(Math.random() * 10);
-        diamond = Math.floor(Math.random() * 10);
-        clover = Math.floor(Math.random() * 10);
-        heart = Math.floor(Math.random() * 10);
+        spade = Math.floor(Math.random() * (12-1) + 1);
+        diamond = Math.floor(Math.random() * (12-1) + 1);
+        clover = Math.floor(Math.random() * (12-1) + 1);
+        heart = Math.floor(Math.random() * (12-1) + 1);
         $('#compNo').text(computer);
         $('#playerNo').text(player);
 
         var lossTally = document.getElementById("losses");
             losses = y++;
             lossTally.innerHTML = "Losses: " + losses;
+
+            alert("You Lose!");
     }
 
 });//ends button1.on function
@@ -63,36 +65,38 @@ $("#button2").on("click", function() {
 
     if (computer === player) {
         console.log(true);
-        // document.getElementById("playerNo").innerHTML = 0;
         computer = Math.floor(Math.random() * (100-30) + 30);
         player = 0;
-        spade = Math.floor(Math.random() * 10);
-        diamond = Math.floor(Math.random() * 10);
-        clover = Math.floor(Math.random() * 10);
-        heart = Math.floor(Math.random() * 10);
+        spade = Math.floor(Math.random() * (12-1) + 1);
+        diamond = Math.floor(Math.random() * (12-1) + 1);
+        clover = Math.floor(Math.random() * (12-1) + 1);
+        heart = Math.floor(Math.random() * (12-1) + 1);
         $('#compNo').text(computer);
         $('#playerNo').text(player);
 
         var winTally = document.getElementById("wins");
         wins = z++;
         winTally.innerHTML = "Wins: " + wins;
+
+        alert("You Win!");
     
     } else {
         console.log(false);
     } if (computer < player + 1) {
-        // document.getElementById("playerNo").innerHTML = 0;
         computer = Math.floor(Math.random() * (100-30) + 30);
         player = 0;
-        spade = Math.floor(Math.random() * 10);
-        diamond = Math.floor(Math.random() * 10);
-        clover = Math.floor(Math.random() * 10);
-        heart = Math.floor(Math.random() * 10);
+        spade = Math.floor(Math.random() * (12-1) + 1);
+        diamond = Math.floor(Math.random() * (12-1) + 1);
+        clover = Math.floor(Math.random() * (12-1) + 1);
+        heart = Math.floor(Math.random() * (12-1) + 1);
         $('#compNo').text(computer);
         $('#playerNo').text(player);
 
         var lossTally = document.getElementById("losses");
             losses = y++;
             lossTally.innerHTML = "Losses: " + losses;
+
+            alert("You Lose!");
     }
 
 });//ends button2.on function
@@ -105,36 +109,38 @@ $("#button3").on("click", function() {
 
     if (computer === player) {
         console.log(true);
-        // document.getElementById("playerNo").innerHTML = 0;
         computer = Math.floor(Math.random() * (100-30) + 30);
         player = 0;
-        spade = Math.floor(Math.random() * 10);
-        diamond = Math.floor(Math.random() * 10);
-        clover = Math.floor(Math.random() * 10);
-        heart = Math.floor(Math.random() * 10);
+        spade = Math.floor(Math.random() * (12-1) + 1);
+        diamond = Math.floor(Math.random() * (12-1) + 1);
+        clover = Math.floor(Math.random() * (12-1) + 1);
+        heart = Math.floor(Math.random() * (12-1) + 1);
         $('#compNo').text(computer);
         $('#playerNo').text(player);
 
         var winTally = document.getElementById("wins");
         wins = z++;
         winTally.innerHTML = "Wins: " + wins;
+
+        alert("You Win!");
     
     } else {
         console.log(false);
     } if (computer < player + 1) {
-        // document.getElementById("playerNo").innerHTML = 0;
         computer = Math.floor(Math.random() * (100-30) + 30);
         player = 0;
-        spade = Math.floor(Math.random() * 10);
-        diamond = Math.floor(Math.random() * 10);
-        clover = Math.floor(Math.random() * 10);
-        heart = Math.floor(Math.random() * 10);
+        spade = Math.floor(Math.random() * (12-1) + 1);
+        diamond = Math.floor(Math.random() * (12-1) + 1);
+        clover = Math.floor(Math.random() * (12-1) + 1);
+        heart = Math.floor(Math.random() * (12-1) + 1);
         $('#compNo').text(computer);
         $('#playerNo').text(player);
 
         var lossTally = document.getElementById("losses");
             losses = y++;
             lossTally.innerHTML = "Losses: " + losses;
+
+            alert("You Lose!");
     }
 
 });//ends button3.on function
@@ -147,38 +153,40 @@ $("#button4").on("click", function() {
 
     if (computer === player) {
         console.log(true);
-        // document.getElementById("playerNo").innerHTML = 0;
         computer = Math.floor(Math.random() * (100-30) + 30);
         player = 0;
-        spade = Math.floor(Math.random() * 10);
-        diamond = Math.floor(Math.random() * 10);
-        clover = Math.floor(Math.random() * 10);
-        heart = Math.floor(Math.random() * 10);
+        spade = Math.floor(Math.random() * (12-1) + 1);
+        diamond = Math.floor(Math.random() * (12-1) + 1);
+        clover = Math.floor(Math.random() * (12-1) + 1);
+        heart = Math.floor(Math.random() * (12-1) + 1);
         $('#compNo').text(computer);
         $('#playerNo').text(player);
 
         var winTally = document.getElementById("wins");
         wins = z++;
         winTally.innerHTML = "Wins: " + wins;
+
+        alert("You Win!");
     
     } else {
         console.log(false);
     } if (computer < player + 1) {
-        // document.getElementById("playerNo").innerHTML = 0;
         computer = Math.floor(Math.random() * (100-30) + 30);
         player = 0;
-        spade = Math.floor(Math.random() * 10);
-        diamond = Math.floor(Math.random() * 10);
-        clover = Math.floor(Math.random() * 10);
-        heart = Math.floor(Math.random() * 10);
+        spade = Math.floor(Math.random() * (12-1) + 1);
+        diamond = Math.floor(Math.random() * (12-1) + 1);
+        clover = Math.floor(Math.random() * (12-1) + 1);
+        heart = Math.floor(Math.random() * (12-1) + 1);
         $('#compNo').text(computer);
         $('#playerNo').text(player);
 
         var lossTally = document.getElementById("losses");
             losses = y++;
             lossTally.innerHTML = "Losses: " + losses;
+
+        alert("You Lose!");
     }
 
-});//ends button4.on function
+});//ends button4.on function    
 
 });//ends document.ready function

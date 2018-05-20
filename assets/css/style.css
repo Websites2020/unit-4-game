@@ -1,0 +1,77 @@
+.img {
+    float: left;
+}
+
+h1 {
+    color: black;
+}
+
+h4 {
+    color: black;
+}
+
+li {
+    color: black;
+}
+
+#button1 {
+    
+    background-size: 100px 130px;
+    height: 134px;  
+    width: 104px;
+}
+
+#button2 {
+    
+    background-size: 100px 130px;
+    height: 134px;  
+    width: 104px;
+}
+
+#button3 {
+    
+    background-size: 100px 130px;
+    height: 134px;  
+    width: 104px;
+}
+
+#button4 {
+    
+    background-size: 100px 130px;
+    height: 134px;  
+    width: 104px;
+}
+
+#compNo {
+    background: rgb(106, 90, 205);
+    float: left;
+    padding: 30px;
+    height: 40px;
+    width: 60px;
+    color: white;
+}
+
+#playerNo {
+    background: rgb(60, 179, 113);
+    float: left;
+    padding: 30px;
+    height: 40px;
+    width: 60px;
+    color: white;
+}
+
+.container {
+    background: tomato;
+    float: left;
+    padding: 30px;
+    height: 40px;
+    width: 130px;
+    color: white;
+}
+
+#wins,
+#losses {
+    position: relative;
+    top: -30px;
+    left: -10px;
+}
