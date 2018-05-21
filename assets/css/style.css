@@ -1,3 +1,7 @@
+body {
+    background: powderblue;
+} 
+
 .img {
     float: left;
 }
@@ -63,6 +67,7 @@ li {
 .container {
     background: tomato;
     float: left;
+    margin: 4px 0 0 0;
     padding: 30px;
     height: 40px;
     width: 130px;
